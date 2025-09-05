@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "common-ui-design-component": {
+      "signature": "793ca49a9a83f81bad22fc4bc94d07f9",
+      "file": true,
+      "replaced": "^1.0.10"
+    }
+  }
+}
