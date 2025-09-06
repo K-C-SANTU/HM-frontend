@@ -1,5 +1,5 @@
 {
-    "name": "my-app",
+    "name": "hotel-management",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -9,8 +9,8 @@
         "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
         "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
         "format": "prettier --write .",
-        "link": "yalc add common-ui-design-component",
-        "ucl": "npm i common-ui-design-component@latest"
+        "link": "npm uninstall common-ui-design-component && yalc add common-ui-design-component",
+        "unlink": "yalc remove common-ui-design-component && npm i common-ui-design-component@latest"
     },
     "dependencies": {
         "@emotion/cache": "^11.14.0",
@@ -20,7 +20,7 @@
         "@mui/material": "^7.3.2",
         "@mui/material-nextjs": "^7.3.2",
         "@reduxjs/toolkit": "^2.9.0",
-        "common-ui-design-component": "^1.0.10",
+        "common-ui-design-component": "^1.0.17",
         "next": "15.5.2",
         "react": "^19.1.0",
         "react-dom": "^19.1.0",

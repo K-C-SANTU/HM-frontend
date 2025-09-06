@@ -10,8 +10,8 @@ export const designTokens = {
         xl: 16,
     },
     padding: {
-        sm: "8px 12px",
-        md: "8px 16px",
+        sm: "2px 4px",
+        md: "6px 12px",
         lg: "16px",
     },
     fontWeight: {
@@ -61,11 +61,11 @@ export default function getThemeConfig(mode: ThemeMode): CustomThemeConfig {
         },
         components: {
             MuiButton: {
-                defaultProps: { disableElevation: true },
+                defaultProps: { disableElevation: true, variant: "contained" },
                 styleOverrides: {
                     root: {
-                        borderRadius: designTokens.borderRadius.md,
-                        padding: designTokens.padding.md,
+                        borderRadius: designTokens.borderRadius.sm,
+                        padding: designTokens.padding.sm,
                         fontWeight: designTokens.fontWeight.semiBold,
                     },
                     containedPrimary: { backgroundColor: colors.primary, color: colors.textPrimary },
