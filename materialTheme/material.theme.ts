@@ -64,7 +64,7 @@ export default function getThemeConfig(mode: ThemeMode): CustomThemeConfig {
                 defaultProps: { disableElevation: true, variant: "contained" },
                 styleOverrides: {
                     root: {
-                        borderRadius: designTokens.borderRadius.sm,
+                        borderRadius: designTokens.borderRadius.lg,
                         padding: designTokens.padding.sm,
                         fontWeight: designTokens.fontWeight.semiBold,
                     },
